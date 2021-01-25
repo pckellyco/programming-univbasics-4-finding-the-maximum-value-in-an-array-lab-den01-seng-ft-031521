@@ -1,3 +1,12 @@
+# identify each element by iterating through array
+# compare each element to one another
+# return the highest integer
+# create a highest variable 
+
 def find_max_value(array)
-  # Add your solution here
+  highest_integer = array.first
+  count = 0
+  while count < array.length do
+    element = array[count]
+    if element
 end
