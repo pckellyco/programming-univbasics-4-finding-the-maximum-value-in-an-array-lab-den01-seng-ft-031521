@@ -8,5 +8,10 @@ def find_max_value(array)
   count = 0
   while count < array.length do
     element = array[count]
-    if element
+    if element > highest_integer
+      highest_integer = element
+    end
+    count += 1
+  end
+  highest_integer
 end
